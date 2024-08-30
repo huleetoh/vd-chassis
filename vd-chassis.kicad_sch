@@ -1,5 +1,356 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c257ccfb-a3c6-4172-a1cc-e5bedffd2f10")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:CM2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PSM"
+				(at 1.778 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 54.61 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 54.61 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 54.61 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 54.61 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CM2_1_1"
+				(rectangle
+					(start 0 0)
+					(end 54.61 -26.67)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "MFG: XP \nMFG P/N: CA20P-5\nMODULE P/N: CM2\n\nSPECS:\n+4.75V <= V_IN <= 5.25V\n0 <= V_MON <= V_REF\n0 <= V_PRG <= V_REF\nV_REF = +2.048V (SCALED TO 100% HV OUT)"
+					(at 1.016 -13.462 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(pin input line
+					(at 54.61 -2.54 0)
+					(length 2.54)
+					(name "+V_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 180)
+					(length 2.54)
+					(name "HV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -24.13 180)
+					(length 2.54)
+					(name "HV_RET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 54.61 -5.08 0)
+					(length 2.54)
+					(name "INPUT_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 54.61 -21.59 0)
+					(length 2.54)
+					(name "POT_10K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 54.61 -24.13 0)
+					(length 2.54)
+					(name "POT_WIPER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 54.61 -11.43 0)
+					(length 2.54)
+					(name "PRG_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 54.61 -17.78 0)
+					(length 2.54)
+					(name "V_MON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 54.61 -8.89 0)
+					(length 2.54)
+					(name "V_PRG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 54.61 -15.24 0)
+					(length 2.54)
+					(name "V_REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:CM2")
+		(at 102.87 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed8c5d4b-c31b-4322-a9d3-f6b91fb6b60a")
+		(property "Reference" "PSM1"
+			(at 130.175 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 130.175 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "32b364c7-18ad-437b-8413-f23ca2fe2de5")
+		)
+		(pin ""
+			(uuid "71ab27e8-f163-4edc-a86b-cf7b4311b9d3")
+		)
+		(pin ""
+			(uuid "890361f9-5e41-42a7-a0d8-163d5e02b150")
+		)
+		(pin ""
+			(uuid "f9bec9b0-9984-4f37-a143-8883ac532853")
+		)
+		(pin ""
+			(uuid "86a87aeb-5377-4720-8f0e-c331b5987748")
+		)
+		(pin ""
+			(uuid "f306ff32-7d4a-414f-9779-ce0da7bac0bb")
+		)
+		(pin ""
+			(uuid "41b809b5-7702-4f08-92be-aa3438ed2b79")
+		)
+		(pin ""
+			(uuid "58d21dc6-f34c-440d-8f9c-ee58a979eabf")
+		)
+		(pin ""
+			(uuid "a01e58e6-aab0-4d9b-b6d0-7b095d050c83")
+		)
+		(pin ""
+			(uuid "64af67e4-2635-44f8-9826-970adfb04965")
+		)
+		(instances
+			(project ""
+				(path "/c257ccfb-a3c6-4172-a1cc-e5bedffd2f10"
+					(reference "PSM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
